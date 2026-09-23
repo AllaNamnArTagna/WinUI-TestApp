@@ -2,6 +2,7 @@
 using Microsoft.UI.Xaml;
 using System;
 using WinUI_TestApp.Application;
+using WinUI_TestApp.Infrastructure;
 
 namespace WinUI_TestApp.Presentation
 {
@@ -19,6 +20,7 @@ namespace WinUI_TestApp.Presentation
             services.AddApplication();
             services.AddInfrastructure();
             services.AddTransient<MainWindow>();
+
             _provider = services.BuildServiceProvider();
         }
 

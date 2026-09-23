@@ -1,10 +1,11 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using Microsoft.UI.Xaml;
 using System;
+using WinUI_TestApp.Application;
 
 namespace WinUI_TestApp.Presentation
 {
-    public partial class App : Application
+    public partial class App : Microsoft.UI.Xaml.Application
     {
         private readonly IServiceProvider _provider;
         private Window? _window;
@@ -15,6 +16,8 @@ namespace WinUI_TestApp.Presentation
 
             var services = new ServiceCollection();
 
+            services.AddApplication();
+            services.AddInfrastructure();
             services.AddTransient<MainWindow>();
             _provider = services.BuildServiceProvider();
         }

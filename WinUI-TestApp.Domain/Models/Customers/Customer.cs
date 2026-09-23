@@ -1,12 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace WinUI_TestApp.Domain.Models.Customers
+namespace WinUI_TestApp.Domain.Models.Customers;
+public class Customer 
+    (
+    string customerName,
+    string customerEmail,
+    Guid customerId
+    )
 {
-    internal class Customer
-    {
-    }
+    public string CustomerName { get; set; } = customerName;
+    public string CustomerEmail { get; set; } = customerEmail;
+    public Guid CustomerId { get; set; } = customerId;
 }

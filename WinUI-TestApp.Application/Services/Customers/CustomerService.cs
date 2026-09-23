@@ -1,12 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace WinUI_TestApp.Application.Services.Customers;
 
-namespace WinUI_TestApp.Application.Services.Customers
+public class CustomerService
 {
-    internal class CustomerService
-    {
-    }
 }

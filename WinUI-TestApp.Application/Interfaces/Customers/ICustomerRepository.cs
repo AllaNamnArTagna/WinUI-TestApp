@@ -1,12 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace WinUI_TestApp.Application.Models.Customers
+﻿
+namespace WinUI_TestApp.Application.Interfaces.Customers;
+public interface ICustomerRepository
 {
-    internal interface ICustomerRepository
-    {
-    }
 }

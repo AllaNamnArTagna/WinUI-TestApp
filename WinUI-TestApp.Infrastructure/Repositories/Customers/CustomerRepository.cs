@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WinUI_TestApp.Infrastructure.Repositories.Customers
 {
-    internal class CustomerManagementRepository
+    internal class CustomerRepository
     {
     }
 }

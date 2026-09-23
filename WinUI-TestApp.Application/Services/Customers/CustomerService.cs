@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WinUI_TestApp.Application.Services.Customers
 {
-    internal class CustomerManagementService
+    internal class CustomerService
     {
     }
 }

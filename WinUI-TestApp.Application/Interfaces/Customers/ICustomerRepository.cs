@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WinUI_TestApp.Domain.Models.Customers
+namespace WinUI_TestApp.Application.Models.Customers
 {
-    internal interface ICustomerManagementRepository
+    internal interface ICustomerRepository
     {
     }
 }

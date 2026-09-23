@@ -47,6 +47,10 @@
     <PackageReference Include="Microsoft.WindowsAppSDK" Version="2.5.1" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\WinUI-TestApp.Application\WinUI-TestApp.Application.csproj" />
+    <ProjectReference Include="..\WinUI-TestApp.Infrastructure\WinUI-TestApp.Infrastructure.csproj" />
+  </ItemGroup>
+  <ItemGroup>
     <Page Update="Pages %28views%29\CustomerPage.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Page>

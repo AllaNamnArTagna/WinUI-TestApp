@@ -12,6 +12,7 @@
     <PackageReference Include="Microsoft.WindowsAppSDK" Version="2.5.1" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\WinUI-TestApp.Application\WinUI-TestApp.Application.csproj" />
     <ProjectReference Include="..\WinUI-TestApp.Domain\WinUI-TestApp.Domain.csproj" />
   </ItemGroup>
 </Project>

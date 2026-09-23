@@ -1,0 +1,16 @@
+<Solution>
+  <Configurations>
+    <Platform Name="ARM64" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="WinUI-TestApp.Application/WinUI-TestApp.Application.csproj" Id="395a1e49-60ef-4f55-893d-2d5d84a4311e" />
+  <Project Path="WinUI-TestApp.Domain/WinUI-TestApp.Domain.csproj" Id="3b9eac88-b9f8-4eda-9a67-9e7e0707048f" />
+  <Project Path="WinUI-TestApp.Infrastructure/WinUI-TestApp.Infrastructure.csproj" Id="f4bdcabb-6e65-4041-8be6-3161e1c4ed2a" />
+  <Project Path="WinUI-TestApp.Presentation/WinUI-TestApp.Presentation.csproj">
+    <Platform Solution="*|ARM64" Project="ARM64" />
+    <Platform Solution="*|x64" Project="x64" />
+    <Platform Solution="*|x86" Project="x86" />
+    <Deploy />
+  </Project>
+</Solution>

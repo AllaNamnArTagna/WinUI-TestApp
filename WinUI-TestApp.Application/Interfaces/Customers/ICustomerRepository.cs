@@ -22,7 +22,7 @@ public interface ICustomerRepository
     //----------- Update ----------- 
 
     //Uppdatera - hitta kund, ändra värden och spara igen
-    public void UpdateCustomer(Customer customer);
+    public void UpdateCustomer(Guid customerId, string newCustomerName, string newCustomerEmail);
 
 //----------- Delete -----------
 

@@ -36,8 +36,9 @@ public class NavigationService : INavigationService
         }
     }
 
-
     //Tar emot frame till metoden, sen tilldelar vi till _frame för att kunna använda den i andra metoder. Vi använder _frame för att kunna navigera mellan sidorna i appen.
+
+    //Vi skriver detta för att
     public void Initialize(Frame frame)
     {
         _frame = frame;
